@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'arial',
+     'Helvetica ',
+   " sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "29LT Bukra Black";
+  src: local("29LTBukra-Black"),
+   url("./Fonts/29LTBukra-Black.woff") format("truetype");
+ 
+  }
+@font-face {
+    font-family: "29LT Bukra Bold";
+    src: local("29LTBukra-Bold"),
+     url("./Fonts/29LTBukra-Bold.woff") format("truetype");
+   
+  }
+
+@font-face {
+    font-family: "29LT Bukra Light";
+    src: local("29LTBukra-Light"),
+     url("./Fonts/29LTBukra-Light.woff") format("truetype");
+   
+  }
+  @font-face {
+    font-family: "29LT Bukra Medium";
+    src: local("29LTBukra-Medium"),
+     url("./Fonts/29LTBukra-Medium.woff") format("truetype");
+   
+    }
+    @font-face {
+      font-family: "29LT Bukra Regular";
+      src: local("29LT Bukra Regular"),
+       url("./Fonts/29LT Bukra Regular.otf") format("truetype");
+     
+      }
+
+
+      /* @font-face {
+        font-family: "29LT Bukra Black";
+        src: local("29LTBukra-Black"),
+         url("./Fonts/29LTBukra-Black.ttf") format("truetype");
+       
+        }
+      @font-face {
+          font-family: "29LT Bukra Bold";
+          src: local("29LTBukra-Bold"),
+           url("./Fonts/29LTBukra-Bold.ttf") format("truetype");
+         
+        }
+      
+      @font-face {
+          font-family: "29LT Bukra Light";
+          src: local("29LTBukra-Light"),
+           url("./Fonts/29LTBukra-Light.ttf") format("truetype");
+         
+        }
+        @font-face {
+          font-family: "29LT Bukra Medium";
+          src: local("29LTBukra-Medium"),
+           url("./Fonts/29LTBukra-Medium.ttf") format("truetype");
+         
+          }
+          @font-face {
+            font-family: "29LT Bukra";
+            src: local("29LTBukra"),
+             url("./Fonts/29LTBukra.ttf") format("truetype");
+           
+            } */

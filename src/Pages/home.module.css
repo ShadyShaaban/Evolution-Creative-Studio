@@ -1,0 +1,349 @@
+.pagebody{
+    margin: 0;
+    padding:0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+
+    overflow-x: hidden;
+    
+}
+
+.gradient{
+    position: absolute;
+    width: 570px;
+    height: 200px;
+    left: 55%;
+    top: 35%;
+    background: radial-gradient(50% 50% at 50% 50%, #FF0202 0%, #FF0202 100%);
+    filter: blur(180px);
+
+}
+
+.halfchimp{
+    background-image:url("../Resources/halfchimp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30vw;
+    height: 70vh;
+    left: 94%;
+    top: 5%;
+  
+   
+   
+   
+    
+}
+
+/* .gradient2{
+position: absolute;
+width: 781px;
+height: 1349px;
+left: 1149px;
+top: 2625px;
+
+background: radial-gradient(50% 50% at 50% 50%, #FF0202 0%, rgba(255, 124, 2, 0) 100%);
+} */
+
+
+.cardcont{
+     display: flex;
+     width: 100%;
+     margin: 0 10vw 10vw 10vw;
+     flex-direction: column;
+  
+
+}
+
+.servtext{
+   
+    font-family: "29LT Bukra Regular";
+    padding: 10px;
+    margin:0;
+    color:#FFFFFF;
+}
+
+
+.servtext h2{
+background: linear-gradient(91.66deg, #FF0202 0.4%, #3502ff 80%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-transform: capitalize;
+font-size: 3rem;
+font-family:"29LT Bukra Bold"
+}
+
+.servtext p{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+
+
+.section1{
+    position: relative;
+    margin: 0 10vw 10vw 10vw;
+}
+
+.section1 h5{
+    margin-top:2rem ;
+
+    font-family: '29LT Bukra Bold';
+    color:#FFFFFF;
+    color: #ED2517;
+}
+
+.section1 h2{
+  
+    font-family: '29LT Bukra Bold';
+   
+    font-weight: 1000;
+    font-size: 4rem;
+    line-height:3.9rem;
+    text-transform: uppercase;
+    background: linear-gradient(91.66deg, #FF0202 0.4%, #3502ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+.section1 p{
+    color: #747474;
+    font-family: '29LT Bukra Regular';
+    text-transform: capitalize; 
+    color:#FFFFFF;
+    width:50%;
+    font-size: 1rem;
+}
+.section1 h4{
+    color: #333333;
+    font-family: '29LT Bukra Bold';
+    color:#FFFFFF;
+    margin-top: 2rem;
+    text-transform: capitalize; 
+    margin-bottom: 2rem;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 10vw 10vw 10vw;
+    justify-content: space-around;
+    gap:5vw;
+    
+
+}
+
+.section2img{
+    background-image:url(../Resources/home1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 25px;
+    height: 70vh;
+    width: 50%;
+}
+
+.section2txt{
+
+    width: 50%;
+    font-family: '29LT Bukra Regular';
+    color: #212121;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color:#FFFFFF;
+}
+
+.section2txt h3{
+    text-align: left;
+    font-family: '29LT Bukra Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+
+    text-transform: capitalize;
+    background: linear-gradient(91.66deg, #FF0202 0.4%, #3502ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section2 button{
+    background-color: #ED2517;
+    color: white;
+    width:20vw;
+
+    border-top:0  ;
+    border-left: 0;
+
+}
+
+
+
+
+@media (max-width:40rem){
+    .gradient{
+
+        position: absolute;
+        width: 60vw;
+        height: 40vh;
+        top: 0%;
+        left:0%;
+        background: radial-gradient(50% 50% at 50% 50%, #FF0202 0%, #FF0202 100%);
+        filter: blur(180px);
+    
+    }
+
+    .halfchimp{
+        background-image:url("../Resources/halfchimp.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 30vw;
+        height: 70vh;
+        left: 77%;
+        top: 0%;
+        z-index: 0;
+        
+        
+    }
+
+
+    .section1{
+        margin-top: 8rem;
+        margin-left: 1.5rem;
+        margin-bottom: 10rem;
+    }
+    
+    .section1 h5{
+        margin-top:2rem ;
+        font-size: 4vw;
+        font-family: '29LT Bukra Bold';
+       
+        color: #ED2517;
+    }
+    
+    .section1 h2{
+      
+        font-family: '29LT Bukra Bold';
+        font-size: 8vw;
+        text-transform: uppercase;
+        background: linear-gradient(91.66deg, #FF0202 0.4%, rgba(53, 2, 255, 0.51) 85%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        line-height: 2.2rem;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .section1 p{
+
+        color:#FFFFFF;
+        font-family: '29LT Bukra Regular';
+        text-transform: capitalize; 
+        width:100%;
+        font-size: 5vw;
+    }
+    .section1 h4{
+        color:#FFFFFF;
+        font-family: '29LT Bukra Bold';
+        font-size: 1rem;
+        margin-top: 40%;
+        text-transform: capitalize; 
+        margin-bottom: 2rem;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;    
+    }
+
+    .section2img{
+        background-image:url(../Resources/home1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        border-radius: 0;
+        width: 100vw;
+        height: 70vh;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .section2txt{
+ 
+        width: 100%;
+        font-family: '29LT Bukra Regular';
+        color:#FFFFFF;
+        font-size: 1rem;
+        padding: 0 0 0 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+    
+    .section2txt h3{
+        text-align: left;
+        font-family: '29LT Bukra Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        background: linear-gradient(91.66deg, #FF0202 0.4%, rgba(53, 2, 255, 0.51) 99.23%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 100%;
+    }
+
+    .cardcont{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 1rem;
+
+   
+   }
+   
+   .servtext{
+      
+       font-family: "29LT Bukra Regular";
+       width: 100%;
+   }
+   
+   
+   .servtext h2{
+        background: linear-gradient(91.66deg, #FF0202 0.4%, rgba(53, 2, 255, 0.51) 99.23%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-transform: capitalize;
+        font-size: 7vw;
+   }
+   
+   .servtext p{
+       font-size: 4vw;
+       margin-top: 30px;
+       width: 70%;
+   }
+
+   .section2 button{
+    background-color: #ED2517;
+    color: white;
+    width:100%;
+   
+
+}
+
+}
